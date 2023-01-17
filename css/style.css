@@ -1,5 +1,5 @@
 body{
-    background-color: lightgrey;
+    background-color: #F6F8F9;
     font-family: 'Roboto', sans-serif;
     margin: 0;
 }
@@ -32,9 +32,10 @@ h1{
    
 }
 
+/* add task & section */
 .buttons{
     background-color: white;
-    padding: 10px 40px;
+    padding: 10px 85px;
     
 }
 
@@ -55,10 +56,18 @@ h1{
     background-color: white;
 }
 
+/* elementi lista */
+
+.list{
+    background-color: white;
+    padding: 10px 85px 50px;
+    margin-top: 5px;
+}
 .row{
     margin-top: 10px;
 }
 
+/* classi check e cross */
 .circle{
     display: inline-block;
     border: 1px solid;
@@ -70,8 +79,8 @@ h1{
     
 
 .green{
-    color: green;
-    border-color: green;
+    color: #64c1ab;
+    border-color: #64c1ab;
     
 }
 
@@ -81,13 +90,13 @@ h1{
 }
 
 
-
+/* classi etichette colorate */
 .etichetta{
     display: inline-block;
     color: white;
     padding: 10px;
     border-radius: 20px;
-    font-size: small;
+    font-size: 10px;
 }
 
 .azzurra{
