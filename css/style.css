@@ -29,6 +29,30 @@ h1{
     max-width: 1500px;
     margin: auto;
     margin-top: 60px;
-    height: 200px;
+   
+}
+
+.buttons{
+    background-color: white;
+    padding: 10px 40px;
+    
+}
+
+.add{
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.task{
+    
+    background-color: #47adf1;
+    color: white;
+    font-weight: bold;
+}
+
+.section{
+    
+    color: lightgray;
     background-color: white;
 }
