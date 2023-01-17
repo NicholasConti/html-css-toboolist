@@ -24,7 +24,7 @@ h1{
     margin: 0;
 
 }
-
+ /* MAIN */
 .container{
     max-width: 1500px;
     margin: auto;
@@ -44,15 +44,72 @@ h1{
     padding: 10px;
 }
 
-.task{
-    
+.task{    
     background-color: #47adf1;
     color: white;
     font-weight: bold;
 }
 
-.section{
-    
+.section{    
     color: lightgray;
     background-color: white;
+}
+
+.row{
+    margin-top: 10px;
+}
+
+.circle{
+    display: inline-block;
+    border: 1px solid;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    text-align: center;
+}
+    
+
+.green{
+    color: green;
+    border-color: green;
+    
+}
+
+.red{
+    color: red;
+    border-color: red;
+}
+
+
+
+.etichetta{
+    display: inline-block;
+    color: white;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: small;
+}
+
+.azzurra{
+    background-color: #47adf1;
+}
+
+.viola{
+    background-color: #9c72e4;
+}
+
+.verde{
+    background-color: #5ebda5;
+}
+
+.arancio{
+    background-color: #f29e33;
+}
+
+.rosa{
+    background-color: #d863a1;
+}
+
+.verdescuro{
+    background-color: #adc71e;
 }
