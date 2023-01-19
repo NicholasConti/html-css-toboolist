@@ -36,6 +36,7 @@ h1{
 .buttons{
     background-color: white;
     padding: 10px 85px;
+    font-family: inherit;
     
 }
 
@@ -63,42 +64,48 @@ h1{
     padding: 10px 85px 50px;
     margin-top: 5px;
 }
-.row{
-    margin-top: 10px;
+
+.list> ul{
+    list-style-type: none;
+    padding: 0px;
+    
 }
 
-/* classi check e cross */
-.circle{
+.list h2::before{
+    content:'\25BE';
+}
+
+.list li.circle::before{
     display: inline-block;
-    border: 1px solid;
     width: 20px;
     height: 20px;
+    margin-right: 5px;
+    vertical-align: middle;
     border-radius: 50%;
+    border: 1px solid green;
+    content: '\2713';
     text-align: center;
-}
-    
-
-.green{
-    color: #64c1ab;
-    border-color: #64c1ab;
-    
+    color: green;
+    line-height: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
-.red{
+.list li.notdone::before{
     color: red;
     border-color: red;
+    content: '\2715';
 }
 
-
-/* classi etichette colorate */
-.etichetta{
+.tag{
     display: inline-block;
+    border-radius: 10px;
+    padding: 5px 10px;
+    margin-left: 10px;
+    vertical-align: middle;
     color: white;
-    padding: 10px;
-    border-radius: 20px;
     font-size: 10px;
 }
-
 .azzurra{
     background-color: #47adf1;
 }
